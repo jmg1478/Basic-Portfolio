@@ -1,11 +1,30 @@
     h1 { 
     color: teal;
     font-size: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    border-color: #dddddd;
   }
   p {
-    color: gray;
-    font-size: 1em;
+    color: #777777;
+    font-size: .5em;
+    background-color: white;
+    border-color: #dddddd;
+  }
+  footer{
+    background-color: #666666;
   }
 h3 {
-    color: blueviolet
+    color: rgb(28, 0, 54)
+}
+
+body {
+  background-color: teal;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+style {
+  box-sizing: border-box;
 }
