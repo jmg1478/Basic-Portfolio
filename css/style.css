@@ -1,21 +1,38 @@
     h1 { 
-    color: teal;
+    color: #777777;
+    float: right;
     font-size: 1em;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #ffffff;
     border-color: #dddddd;
   }
+  img {
+    float: left;
+  margin-top: 26%;
+  }
+  h2 {margin-top: 5%;
+  }
   p {
+    float: wrap;
     color: #777777;
-    font-size: .5em;
+    font-size: .8em;
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
     background-color: white;
     border-color: #dddddd;
+    margin-top: 10%;
+    
   }
+
   footer{
     background-color: #666666;
   }
 h3 {
-    color: rgb(28, 0, 54)
+    color: rgb(28, 0, 54);
+    float: left;
+    color: #000;
+    font-size: .75em;
 }
 
 body {
@@ -27,4 +44,14 @@ body {
 }
 style {
   box-sizing: border-box;
+}
+h3 {
+  float: left;
+  margin-right: 50%
+  margin-top: 25%;
+}
+ul {
+  float: left;
+  margin-top: 8%;
+  margin-right: 40%;
 }
