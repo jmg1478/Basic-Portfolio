@@ -1,57 +1,38 @@
-    h1 { 
-    color: #777777;
-    float: right;
-    font-size: 1em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #ffffff;
-    border-color: #dddddd;
-  }
-  img {
-    float: left;
-  margin-top: 26%;
-  }
-  h2 {margin-top: 5%;
-  }
-  p {
-    float: wrap;
-    color: #777777;
-    font-size: .8em;
-    width: 90%;
-    max-width: 900px;
-    margin: 0 auto;
-    background-color: white;
-    border-color: #dddddd;
-    margin-top: 10%;
-    
-  }
-
-  footer{
-    background-color: #666666;
-  }
-h3 {
-    color: rgb(28, 0, 54);
-    float: left;
-    color: #000;
-    font-size: .75em;
-}
-
 body {
-  background-color: teal;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-  color: white;
+  background-color: #4aaaa5;
 }
-style {
-  box-sizing: border-box;
+header {
+  background-color: #ffffff;
+  border-color: #cccccc;
+  float: right;
 }
-h3 {
+h1 {
+  font-family: 'font-family: 'Georgia', Times, Times New Roman, Serif;'
+}
+.image {
   float: left;
-  margin-right: 50%
-  margin-top: 25%;
+margin-left: 0px 0px 0px 60px;
+width: 150px;
+height: 38px;
 }
-ul {
-  float: left;
-  margin-top: 8%;
-  margin-right: 40%;
+p {
+  text-align: center
+  font-size: 18px; 
+  -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+box-shadow: 5px 5px 15px 5px #000000;
+  color: #777777;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica sans-serif;
+  background-color: #ffffff;
+  border-color: #dddddd;
+  float: wrap;
+  margin-left: 13.5%;
+  margin-right: auto;
+  width: 50%;
+}
+footer {
+  background-color: #666666;
+  border-color: green;
+}
+h2 {
+ clear: both;
 }
